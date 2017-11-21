@@ -13,8 +13,10 @@ Enter y2
 
 Output:
 Binoy's house is located at (6.0 , 9.5)
+*/
 
 Source Code:
+
 #include<stdio.h>
 int main(){
     int x1,x2,y1,y2;
@@ -27,5 +29,5 @@ int main(){
     printf("Enter y2\n");
     scanf("%d",&y2);
     printf("Binoy's house is located at (%.1f , %.1f)",(float)(x1+x2)/2,(float)(y1+y2)/2);
-    return 0;
+  return 0;
 }
